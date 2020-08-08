@@ -1,0 +1,26 @@
+h1{
+    color: #81ecec;
+    font-family: 'Antic Slab', serif;
+}
+p{
+    font-family: 'Chilanka', cursive;;
+}
+h2{
+    font-family: 'Noto Serif', serif;
+}
+div{
+    text-align: center;
+    padding: 50px 50px auto ;
+    border: 10px solid pink ;
+    border-radius: 50px;
+    margin: 10px 400px auto;
+    background: plum;
+}
+img{
+    border-radius: 50%;
+}
+body{
+    background: #DD5E89;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F7BB97, #DD5E89);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F7BB97, #DD5E89); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}

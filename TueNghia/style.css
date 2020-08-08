@@ -1,0 +1,28 @@
+h1{
+    color: <div id="blue"></div>;
+    font-family: 'Poppins', serif;
+}
+h2{
+    font-family: 'Poppins', serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;;
+}
+
+div{
+    text-align: center;
+    padding: 100 100 auto ;
+    border: 5px solid #696969 ;
+    border-radius: 10px;
+    margin: 10px 400px auto;
+    box-shadow: #696969;
+}
+img{
+    border-radius: 50%;
+}
+body{
+    background: #00d2ff;
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    +/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}

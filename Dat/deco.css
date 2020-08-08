@@ -1,0 +1,36 @@
+.cardContainer {
+    height: 700px;
+    background-color:#e67e22;
+    border: solid black 1px;
+    width: 500px;
+    margin: 60px auto;
+    text-align: center;
+    box-shadow: 10px 10px 100px #EE5A24;
+    border-radius: 10px;
+}
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+.info{
+    background-color: #f39c12;
+    padding: 10px 20px;
+    margin: 10px 30px;
+    
+}
+button{
+    height: 50px;
+    width: 100px;
+    margin-top: 15px;
+    border: none;
+    background-color: yellow;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    color:whitesmoke;
+}
