@@ -1,0 +1,21 @@
+body{
+    background-color:white;
+}
+// loader
+.loader-wrapper{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1031;
+}
+#firstLottie{
+   width: 15vw;
+   height: 15vh;
+   justify-content: center;
+   margin: auto;
+ 
+}
+
+

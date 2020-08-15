@@ -1,0 +1,26 @@
+body {
+  background-color: white;
+}
+
+.loader-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1031;
+}
+
+#firstLottie {
+  width: 15vw;
+  height: 15vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+/*# sourceMappingURL=main.css.map */

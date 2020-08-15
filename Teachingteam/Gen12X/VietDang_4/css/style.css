@@ -1,0 +1,40 @@
+body{
+    
+    background: url(../image/background3.jpg);
+    opacity:0.7;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    color: orange;
+    font-family: 'Shadows Into Light', cursive;
+    
+}
+
+.traits image{
+
+    margin: 10px 50px;
+    padding: 5px;
+    filter: grayscale(100%);
+    transition: 2s;
+    opacity: 0.5;
+}
+
+.traits img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+footer{
+    width: 100%;
+    background-color: lightcoral;
+    padding: 60px 20px;
+}
+
+footer .info{
+    text-align: center;
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 35px;
+}
