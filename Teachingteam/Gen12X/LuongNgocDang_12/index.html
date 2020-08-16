@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="title-box">
+        <h1 id="title">Registration form</h1>
+        <p id="slogan">For everyone who want to learn new things</p>   
+    </div>
+    
+
+    <div class="container">
+    <form id="registration-form">
+        <h2 id="title-pad">Register here: </h2>
+        <div class="form-group">
+            <label for="name" id="name-label">Name</label><br>
+            <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email" id="email-label">Email</label><br>
+            <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="number" id="number-phone-label">Number Phone</label><br>
+            <input type="text" name="number" id="number" class="form-control" placeholder="Enter your number phone">
+        </div>
+
+        <div class="form-group">
+            <label for="age" id="age-label">Age</label><br>
+            <input type="number" name="age" id="age" class="form-control" placeholder="Enter your age" required>
+        </div>
+
+        <div class="form-group">
+            <label for="sex" id="sex-label">Sex</label><br>
+            <select name="sex" id="sex">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="none">None</option>
+            </select>
+        </div><br>
+
+        <fieldset class="form-group">
+            <legend>What do u want to improve?</legend>
+            <label>
+                <input name="prefer" value="web" type="checkbox" class="input-checkbox">
+                Web
+            </label><br>
+
+            <label>
+                <input name="prefer" value="app" type="checkbox" class="input-checkbox">
+                App
+            </label><br>
+
+            <label>
+                <input name="prefer" value="game" type="checkbox" class="input-checkbox">
+                Game
+            </label><br>
+        </fieldset>
+
+        <div class="form-group">
+            <p>Do u like developing and want to follow this majors?</p>
+            <select>
+                <option>Yes, this's my passion</option>
+                <option>No, i don't like it</option>
+                <option>I don't know</option>
+            </select>
+        </div><br>
+
+        <div class="form-group">
+            <p>Any question?</p>
+            <textarea id="comment" name="comment" type="textarea" placeholder="Comment here"></textarea>
+        </div>
+        
+        <div id="submit-button">
+            <button id="submit">Submit</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
