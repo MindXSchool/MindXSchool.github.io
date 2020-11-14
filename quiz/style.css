@@ -22,7 +22,8 @@
 
 
 body{
-    background-image: url(./img/fd2a12a5892e13d5e10b455d7e25f74e.jpg);
+    /* background-image: url(./img/fd2a12a5892e13d5e10b455d7e25f74e.jpg); */
+    background-image: linear-gradient(to left bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
 body,
 html {
@@ -90,8 +91,8 @@ html {
 }
 
 .rule-wrapper {
-    width: 80%;
-    height: 85%;
+    width: 78%;
+    height: 80%;
 
 }
 
