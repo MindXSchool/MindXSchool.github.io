@@ -14,12 +14,45 @@
 </head>
 
 <body id="particles-js">
+    <div class="nav">
+        <img id="logo" src="./img/logo_white.png">
+    </div>
+    <div class="countdown_time"></div>
+    <div class="container_end">
+        <p style="color:white ; font-size:40px">Chúc mừng bạn đã hoàn thành</p>
+        <div class="w1">
+            <h1>MindX Team</h1>
+            <h2>Score: 1500</h2>
+            <h2>Time: 200s</h2>
+            <div>
+                
+                <div class="code_t2">
+                    <p>mã code ở tầng 2</p>
+                    <h1>5</h1>
+                </div>
+            </div>
+            <div class="answers">
+                <div class="t">Quesstion 1: NguyenVanC</div>
+                <div class="t">Quesstion 2: NguyenVanC</div>
+                <div class="t">Quesstion 3: NguyenVanC</div>
+                <div class="t">Quesstion 4: NguyenVanC</div>
+                <div class="t">Quesstion 5: NguyenVanC</div>
+            </div>
+            
 
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="../packet/typed.min.js"></script>
     <script src="../packet/particles.js"></script>
     <script src="../packet/app.js"></script>
+    <script>
+      let t =  document.querySelector('.countdown_time')
+        setTimeout(() => {
+            t.classList.add('activet')
+        }, 1000)
+    </script>
 </body>
 
 </html>
