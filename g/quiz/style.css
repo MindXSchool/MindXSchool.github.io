@@ -1,0 +1,137 @@
+body {
+  font-family: 'Goldman';
+}
+#particles-js {
+  height: 100vh;
+  /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+  /* background-image: linear-gradient(to left bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+  background-image: url(https://cdn3.vectorstock.com/i/1000x1000/94/47/matrix-hacker-dark-background-vector-13239447.jpg);
+  /* background-image: url(./img/fd2a12a5892e13d5e10b455d7e25f74e.jpg); */
+  /* background-image: linear-gradient(to left bottom, #c00000, #c1261f, #c03b36, #bd4d4a, #b85d5d); */
+
+}
+.survey-wrap {
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 0 35px 0 rgba(154, 161, 171, 0.15);
+  margin: 40px auto 50px auto;
+  max-width: 400px;
+  padding: 40px;
+  position: relative;
+}
+.survey-intro {
+  text-align: center;
+}
+.survey-intro h1 {
+  font-size: 60px;
+  font-weight: 900;
+}
+.survey-questions {
+  display: none;
+}
+.question {
+  display: none;
+}
+.q-active {
+  display: block;
+}
+.q-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.ans-wrap {
+  border: 1px solid #f0f0f0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin-top: 15px;
+  padding: 10px 20px;
+}
+.ans-wrap input {
+  cursor: pointer;
+}
+.ans-selected {
+  background: #ffbb33;
+}
+.q-warning {
+  background: red;
+}
+
+.start-survey,
+.q-btn {
+  background-color: #727cf5;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  box-shadow: 0 2px 6px 0 rgba(114, 124, 245, 0.5);
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  min-width: 120px;
+  margin-top: 15px;
+  padding: 8px 5px;
+  text-align: center;
+  text-decoration: none;
+}
+.start-survey:hover,
+.q-btn:hover {
+  background-color: #4e5bf2;
+  color: #fff;
+  text-decoration: none;
+}
+
+.survey-exit {
+  display: none;
+  text-align: center;
+}
+.survey-exit h2 {
+  font-size: 58px;
+  font-weight: 900;
+}
+#q-loader {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999999999;
+  background: rgba(255, 255, 255, 0.75);
+}
+.q-wheel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -2em;
+  margin-left: -2em;
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  vertical-align: text-bottom;
+  border: 5px solid #5ecb9b;
+  border-right-color: transparent;
+  border-radius: 50%;
+  -webkit-animation: ques-loader 0.75s linear infinite;
+  animation: ques-loader 0.75s linear infinite;
+  z-index: 9999999999;
+}
+@keyframes ques-loader {
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes ques-loader {
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.quizz-image {
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+}
