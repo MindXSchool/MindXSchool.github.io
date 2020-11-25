@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Multiple Choice Quizz</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,900"
+      rel="stylesheet"
+    />
+    <div class="survey-wrap">
+      <div id="q-loader">
+        <div class="q-wheel"></div>
+      </div>
+      <div class="survey-intro">
+        <h1>Yo Quiz!</h1>
+        <a href="#" class="start-survey">Start</a>
+      </div>
+      <div class="survey-questions">
+        <!-- questions-->
+        <div class="questions" id="questions">
+          <div class="q-btn-wrap">
+            <a href="#" class="q-btn"> Next </a>
+          </div>
+        </div>
+        <!-- questions-->
+      </div>
+      <div class="survey-exit">
+        <h2>Thanks!</h2>
+        <a href="#" class="start-survey">Go to home</a>
+      </div>
+    </div>
+    <!-- partial -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="./app.js"></script>
+    <script src="./quizz.js"></script>
+  </body>
+</html>
