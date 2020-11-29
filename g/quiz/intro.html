@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellcome</title>
+    <link rel="icon" href="./img/spaces_-MJ3-diUp-gxuyf_wwsg_avatar-1604894864018.png">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style_c.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+</head>
+
+<body id="particles-js">
+    <div style="position: absolute; width: 100%">
+        <div class="nav">
+            <a href="./start.html"><img id="logo" src="./img/logo_white.png"></a>
+        </div>
+        <div class="slider">
+            <div class="row fullheight">
+                <!-- right -->
+                <div class="col-8 fullheight bg-red">
+                    <div class="rule-wrapper">
+                        <div class="title">
+                            <p>Welcome to <span class="autoText"></span></p>
+                            <p style="color: white;text-align:center; font-size:17px">MISSION</p>
+                        </div>
+                        <div class="rule">
+                            <div class="r1 left-to-right">
+                                <p><img height="50px" src="./img/chiHuongMuon.gif">In about 8 minutes, quickly answer 5 questions from the website. You
+                                    will only have 90 seconds for each.</p>
+                            </div>
+                            <div class="r2 left-to-right">
+                                <p><img height="50px" src="./img/chiHuongMuon.gif">After answering each question, you will be given 5 seconds to write
+                                    down sequentially the answer on an answering sheet (bring it along,
+                                    you will need it for the next challenge!).</p>
+                            </div>
+                            <div class="r3 left-to-right">
+                                <p><img height="50px" src="./img/chiHuongMuon.gif">Hints will be displayed gradually over time. Answer the question
+                                    before hints are displayed, you will receive 300 pts. The more hints
+                                    you get, the fewer points you get.</p>
+                            </div>
+                            <div class=" r4 left-to-right">
+                                <p><img height="50px" src="./img/chiHuongMuon.gif">After 5 secrets being solved, you will receive a code to let you know
+                                    where the missing scientists are held captive.
+                                </p>
+                            </div>
+                        </div>
+                        <div></div>
+                        <div style="text-align: center;" class="r5 input-idTeam down-to-up">
+                            <a href="./inputid.html" class="button gradient-border">Are you ready   <i class="fas fa-chevron-double-right"></i></a>
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <!-- Left -->
+                <div class="col-4 fullheight bg-blue">
+                    <div class="product-img">
+                        <div class="img-wrapper">
+                            <div class="bounce">
+                                <!-- <img src="./img/HaSUa.png" alt="MindX logo"> -->
+                                <!-- <img src="./img/Anonymous Mask icon 1.png" alt="MindX logo"> -->
+                                <!-- <img src="https://gblobscdn.gitbook.com/spaces%2F-MJ3-diUp-gxuyf_wwsg%2Favatar-1604894864018.png?alt=media" alt=""> -->
+                                <img src="./img/logo205x250.gif" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../packet/typed.min.js"></script>
+    <script>
+        let rule1 = document.querySelector('.r1')
+        let rule2 = document.querySelector('.r2')
+        let rule3 = document.querySelector('.r3')
+        let rule4 = document.querySelector('.r4')
+        let rule5 = document.querySelector('.r5')
+        setTimeout(() => {
+            rule1.classList.add('active')
+        }, 1000)
+        setTimeout(() => {
+            rule2.classList.add('active')
+        }, 2000)
+        setTimeout(() => {
+            rule3.classList.add('active')
+        }, 3000)
+        setTimeout(() => {
+            rule4.classList.add('active')
+        }, 4000)
+        setTimeout(() => {
+            rule5.classList.add('active1')
+        }, 5000)
+
+        var typed = new Typed('.autoText', {
+            strings: ['<strong style="color:#c00000">MindX School</strong>', 'Moskow station'],
+
+            typeSpeed: 100,
+            backSpeed: 60,
+            loop:true,
+            backDelay: 1500,
+          });
+    </script>
+    
+    <script src="../packet/particles.js"></script>
+    <script src="../packet/app.js"></script>
+</body>
+
+</html>
