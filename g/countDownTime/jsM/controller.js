@@ -37,10 +37,10 @@ const controller = {
         return
       }
       await controller.getData()
-     await view.showTimer(model.listTeam)
+      await view.showTimer(model.listTeam)
 
 
-      
+
       // let docChanges = snapshot.docChanges()
       // for (let docChange of docChanges) {
       //   let type = docChange.type
@@ -52,8 +52,10 @@ const controller = {
       // }
     })
   },
-  getIdRoom: ()=>{
-    return localStorage.getItem('room')
+  getIdRoom: () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const id = urlParams.get("id");
+    return id
   }
 
 }

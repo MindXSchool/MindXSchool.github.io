@@ -9,7 +9,7 @@
   height: 100%;
   /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
   /* background-image: linear-gradient(to left bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
-  background-color: black;
+  background-image: url('./img/bg1.svg');
 
 }
 
@@ -33,6 +33,7 @@
 }
 .wrapper h1{
   text-align: center;
+  color: #fff;
 }
 .el-wapper{
   display: flex;

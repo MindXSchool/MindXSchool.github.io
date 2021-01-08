@@ -27,9 +27,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./mobile.css">
-    <link rel="stylesheet" href="../packet/sweetalert2.css">
+    <link rel="stylesheet" href="./packet/sweetalert2.css">
     <style>
-        a{
+        a {
             color: white;
             text-decoration: none;
         }
@@ -63,7 +63,7 @@
                         <option value="sv6">Sever 6</option>
                     </select>
                     <h4>Phòng</h4>
-                    <select name="room" class="custom-select">
+                    <select id="r" name="room" class="custom-select">
                         <option value="p1">Phòng 1</option>
                         <option value="p2">Phòng 2</option>
                         <option value="p3">Phòng 3</option>
@@ -73,14 +73,14 @@
                     </select>
                     <h4>Tên Nhóm</h4>
                     <input type="text" name="id" class="form-control" placeholder="Tên Nhóm">
-                <button class="btn btn-success" title="submit">Submit</button>
+                    <button class="btn btn-success" title="submit">Submit</button>
                 </form>
             </div>
 
         </div>
         <div style="text-align: center; margin-top: 20px">
             <button type="button" class="btn btn-danger"><a href="./index.html">Input ID</a></button>
-            <button type="button" class="btn btn-danger"><a href="./mobile.html">Show ID running</a></button>
+            <button id="showR" type="button" class="btn btn-danger">Show ID running</button>
         </div>
 
 
@@ -110,7 +110,13 @@
         firebase.analytics();
     </script>
     <script src="./index.js"></script>
-    <script src="../packet/sweetalert2.all.min.js"></script>
+    <script src="./packet/sweetalert2.all.min.js"></script>
+    <script>
+        $('#showR').click(() => {
+            let url =`mobile.html?id=${$('#r').val()}`
+            window.location.href = url
+        })
+    </script>
 </body>
 
 </html>
