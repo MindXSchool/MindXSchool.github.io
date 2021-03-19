@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #27ae60;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background-color: whitesmoke;
+            width: 500px;
+            padding: 30px 0px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #ava {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+
+        #name {
+            color: teal;
+            font-size: 40px;
+            margin-top: 15px;
+            margin-bottom: 0px;
+        }
+
+        #job {
+            color: gray;
+            margin-bottom: 30px;
+        }
+
+        .detail{
+            margin: 35px;
+        }
+        .detail >*{
+            margin: 10px; 
+        }
+        .contact-wapper {
+            display: flex;
+            justify-content: space-between;
+            background-color: #bdc3c7;
+        }
+
+        .email,
+        .work,
+        .person {
+            width: calc(100%/3);
+            margin: 15px 0px;
+            color: #2c3e50;
+        }
+
+        .contact-wapper p {
+            margin-top: 10px;
+        }
+
+        .contact-wapper i {
+            font-size: 25px;
+        }
+
+        .work {
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+        }
+        .socal-media{
+            margin: 40px;
+        }
+        .socal-media img{
+            width: 45px;
+            height: 45px;
+            margin: 0px 10px;
+        }
+        button{
+            color: #fff;
+            background-color: #27ae60;
+            padding: 10px 30px;
+            border: none;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: #2ecc71;
+            transition: 0.5s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img id="ava" src="https://picsum.photos/300/300" alt="">
+        <p id="name">Nguyễn Văn Cường</p>
+        <p id="job">Student</p>
+        <hr>
+        <div class="detail">
+            <h2>Activity Level : 69%</h2>
+            <p>Lorem ipsum dolor, sit amet
+                id, at sunt debitis</p>
+        </div>
+
+        <div class="contact-wapper">
+            <div class="email">
+                <i class="fas fa-envelope"></i>
+                <p>1005</p>
+            </div>
+            <div class="work">
+                <i class="fas fa-briefcase"></i>
+                <p>6969</p>
+            </div>
+            <div class="person">
+                <i class="fas fa-user"></i>
+                <p>109</p>
+            </div>
+        </div>
+        <div class="socal-media">
+            <img src="https://img.icons8.com/cute-clipart/64/000000/facebook-new.png"/>
+            <img src="https://img.icons8.com/cute-clipart/64/000000/twitter.png"/>
+            <img src="https://img.icons8.com/cute-clipart/64/000000/instagram-new.png"/>
+            <img src="https://img.icons8.com/bubbles/50/000000/youtube-music.png"/>
+
+        </div>
+        <button>Follow</button>
+    </div>
+</body>
+
+</html>
